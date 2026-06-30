@@ -1,16 +1,9 @@
 # Detekcija lažnih oglasa za posao
 
-Praktična analiza kvaliteta i predobrade tekstualnih podataka za binarnu
-klasifikaciju oglasa na klase `real` i `fake`.
+Skup podataka korišćen u analizi: https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 
-Notebook se nalazi u `detect-fake-jobs.ipynb`, a skup podataka u
-`fake_real_job_postings.csv`.
-
-Za pretrained DistilBERT eksperiment potrebni su dodatni paketi:
+Pokretanje projekta:
 
 ```bash
-python -m pip install -r requirements-transformers.txt
+python -m pip install -r requirements.txt
 ```
-
-Pri prvom pokretanju preuzimaju se `distilbert-base-uncased` tokenizer i
-pretrained težine. Fine-tuning na CPU-u traje približno osam minuta.
