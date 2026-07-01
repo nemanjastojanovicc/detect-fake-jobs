@@ -1,6 +1,6 @@
 # Detekcija lažnih oglasa za posao
 
-Skup podataka korišćen u analizi: https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+Skup podataka korišćen u analizi: https://www.kaggle.com/datasets/khushikyad001/fake-vs-real-job-postings-synthetic-nlp-dataset
 
 Pokretanje projekta:
 
